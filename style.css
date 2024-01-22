@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    box-shadow: 15px 2px 10px 3px rgb(0, 0, 0, 0.2);
+}
+
+header img {
+    height: 50px;
+}
+
+.aot {
+    background-image: url(./img/pexels-narda-yescas-1566837.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 70%;
+}
+
+.basket {
+    position: fixed;
+    right: 0;
+    top: 100px;
+    height: 100vh;
+    width: 30%;
+    box-shadow: -12px 10px 29px 1px rgb(0, 0, 0 , 0.2);    
+}
