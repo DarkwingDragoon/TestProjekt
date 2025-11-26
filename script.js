@@ -29,6 +29,8 @@ let prices = [];
 
 function addToBasket(name, price) {
     names.push(name);
+    prices.push(price);
+    updateShoppingBasket();
 }
 
 function updateShoppingBasket () {
